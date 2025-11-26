@@ -34,7 +34,6 @@ appsettings.Development.json
 [Mm]igrations/
 
 
-
 # Archivos de Resharper
 _ReSharper*/
 *.csproj.user
