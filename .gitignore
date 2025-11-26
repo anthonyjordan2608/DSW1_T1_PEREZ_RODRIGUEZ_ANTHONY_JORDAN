@@ -1,0 +1,46 @@
+# Archivos de compilación
+[Bb]in/
+[Oo]bj/
+
+# Archivos de usuario
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos de VS Code
+.vscode/
+
+# Dependencias node
+node_modules/
+npm-debug.log*
+
+# Archivos de publicación
+publish/
+[Bb]uild/
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Configuraciones locales
+appsettings.Development.json
+
+# Entity Framework
+[Mm]igrations/
+
+# Librerías frontend (para evitar los warnings)
+wwwroot/lib/
+wwwroot/lib/**/
+
+# Archivos de Resharper
+_ReSharper*/
+*.csproj.user
+
+# Archivos de VS
+*.vcxitems
+*.vcxitems.filters
