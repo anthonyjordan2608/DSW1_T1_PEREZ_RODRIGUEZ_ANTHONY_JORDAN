@@ -33,9 +33,6 @@ appsettings.Development.json
 # Entity Framework
 [Mm]igrations/
 
-# Librerías frontend (para evitar los warnings)
-wwwroot/lib/
-wwwroot/lib/**/
 
 # Archivos de Resharper
 _ReSharper*/
