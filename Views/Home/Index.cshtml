@@ -1,0 +1,202 @@
+﻿@{
+    ViewData["Title"] = "Gestión de Cursos";
+}
+
+<div class="container mt-4">
+    <h2>Gestión de Cursos Académicos</h2>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Filtrar Cursos por Nivel Académico</h5>
+                </div>
+                <div class="card-body">
+                    <form id="filtroForm">
+                        <div class="mb-3">
+                            <label for="nivelId" class="form-label">ID del Nivel Académico:</label>
+                            <input type="number" class="form-control" id="nivelId" name="nivelId" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="pagina" class="form-label">Página:</label>
+                            <input type="number" class="form-control" id="pagina" name="pagina" value="1" min="1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="tamanoPagina" class="form-label">Tamaño de página:</label>
+                            <input type="number" class="form-control" id="tamanoPagina" name="tamanoPagina" value="10" min="1">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Filtrar Cursos</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Crear Nuevo Curso</h5>
+                </div>
+                <div class="card-body">
+                    <form id="cursoForm">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Código del Curso" id="codigoCurso" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Nombre del Curso" id="nombreCurso" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="number" class="form-control" placeholder="Créditos" id="creditos" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="number" class="form-control" placeholder="Horas Semanales" id="horasSemanales" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="number" class="form-control" placeholder="Nivel Académico ID" id="nivelAcademicoId" required>
+                        </div>
+                        <button type="submit" class="btn btn-success">Crear Curso</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-12">
+            <div id="resultados" class="card">
+                <div class="card-header">
+                    <h5>Resultados</h5>
+                </div>
+                <div class="card-body">
+                    <div id="cursosList"></div>
+                    <div id="paginacion"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.getElementById('filtroForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const nivelId = document.getElementById('nivelId').value;
+            const pagina = document.getElementById('pagina').value;
+            const tamanoPagina = document.getElementById('tamanoPagina').value;
+
+            fetch(`/api/Cursos/por-nivel/${nivelId}?pagina=${pagina}&tamanoPagina=${tamanoPagina}`)
+                .then(response => {
+                    console.log('Response status:', response.status);
+                    if (!response.ok) {
+                        throw new Error(`Error del servidor: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    console.log('Datos recibidos:', data);
+                    mostrarCursos(data);
+                    mostrarPaginacion(data);
+                })
+                .catch(error => {
+                    console.error('Error completo:', error);
+                    document.getElementById('cursosList').innerHTML =
+                        `<p class="text-danger">Error al cargar los cursos: ${error.message}</p>`;
+                });
+        });
+
+        document.getElementById('cursoForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const curso = {
+                codigoCurso: document.getElementById('codigoCurso').value,
+                nombreCurso: document.getElementById('nombreCurso').value,
+                creditos: parseInt(document.getElementById('creditos').value),       
+                horasSemanales: parseInt(document.getElementById('horasSemanales').value), 
+                nivelAcademicoId: parseInt(document.getElementById('nivelAcademicoId').value)
+            };
+
+            console.log('Enviando curso CORREGIDO:', curso);
+
+            fetch('/api/Cursos', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(curso)
+            })
+            .then(response => {
+                console.log('Response status crear:', response.status);
+                if (response.ok) {
+                    return response.json();
+                } else {
+                    return response.json().then(errorData => {
+                        throw new Error(JSON.stringify(errorData, null, 2))
+                    });
+                }
+            })
+            .then(data => {
+                alert(' Curso creado exitosamente');
+                document.getElementById('cursoForm').reset();
+                const nivelId = document.getElementById('nivelId').value;
+                if (nivelId && nivelId !== '') {
+                    document.getElementById('filtroForm').dispatchEvent(new Event('submit'));
+                } else {
+                    document.getElementById('cursosList').innerHTML =
+                        '<p class="text-success"> Curso creado exitosamente. Usa el filtro para verlo en la lista.</p>';
+                }
+            })
+            .catch(error => {
+                console.error('Error crear curso:', error);
+                alert(' Error al crear el curso. Verifica la consola para más detalles.');
+            });
+        });
+
+        function mostrarCursos(data) {
+            const cursosList = document.getElementById('cursosList');
+
+            if (data.cursos && data.cursos.length > 0) {
+                let html = `<p>Mostrando ${data.cursos.length} de ${data.totalCursos} cursos</p>`;
+                html += '<table class="table table-striped"><thead><tr><th>Código</th><th>Nombre</th><th>Créditos</th><th>Horas</th><th>Nivel</th></tr></thead><tbody>';
+
+                data.cursos.forEach(curso => {
+                    html += `<tr>
+                        <td>${curso.codigoCurso}</td>
+                        <td>${curso.nombreCurso}</td>
+                        <td>${curso.creditos}</td>
+                        <td>${curso.horasSemanales}</td>
+                        <td>${curso.nivelAcademico ? curso.nivelAcademico.description : 'N/A'}</td>
+                    </tr>`;
+                });
+
+                html += '</tbody></table>';
+                cursosList.innerHTML = html;
+            } else {
+                cursosList.innerHTML = '<p>No se encontraron cursos para el nivel académico especificado.</p>';
+            }
+        }
+
+        function mostrarPaginacion(data) {
+            const paginacion = document.getElementById('paginacion');
+
+            if (data.totalPaginas > 1) {
+                let html = '<nav><ul class="pagination">';
+
+                for (let i = 1; i <= data.totalPaginas; i++) {
+                    html += `<li class="page-item ${i === data.pagina ? 'active' : ''}">
+                        <a class="page-link" href="#" onclick="cambiarPagina(${i})">${i}</a>
+                    </li>`;
+                }
+
+                html += '</ul></nav>';
+                paginacion.innerHTML = html;
+            } else {
+                paginacion.innerHTML = '';
+            }
+        }
+
+        function cambiarPagina(pagina) {
+            document.getElementById('pagina').value = pagina;
+            document.getElementById('filtroForm').dispatchEvent(new Event('submit'));
+        }
+    </script>
+}

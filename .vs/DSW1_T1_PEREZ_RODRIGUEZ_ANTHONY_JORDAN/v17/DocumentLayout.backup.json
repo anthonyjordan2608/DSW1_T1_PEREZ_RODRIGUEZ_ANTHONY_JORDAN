@@ -1,0 +1,292 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|e:\\cosas de tony 2025\\cibertec\\cursos 4to ciclo\\programacion orientada a objetos 2\\clases\\ef\\dsw1_t1_perez_rodriguez_anthony_jordan\\controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|solutionrelative:controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|e:\\cosas de tony 2025\\cibertec\\cursos 4to ciclo\\programacion orientada a objetos 2\\clases\\ef\\dsw1_t1_perez_rodriguez_anthony_jordan\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|e:\\cosas de tony 2025\\cibertec\\cursos 4to ciclo\\programacion orientada a objetos 2\\clases\\ef\\dsw1_t1_perez_rodriguez_anthony_jordan\\migrations\\20251126020449_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|solutionrelative:migrations\\20251126020449_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|e:\\cosas de tony 2025\\cibertec\\cursos 4to ciclo\\programacion orientada a objetos 2\\clases\\ef\\dsw1_t1_perez_rodriguez_anthony_jordan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|e:\\cosas de tony 2025\\cibertec\\cursos 4to ciclo\\programacion orientada a objetos 2\\clases\\ef\\dsw1_t1_perez_rodriguez_anthony_jordan\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|e:\\cosas de tony 2025\\cibertec\\cursos 4to ciclo\\programacion orientada a objetos 2\\clases\\ef\\dsw1_t1_perez_rodriguez_anthony_jordan\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|e:\\cosas de tony 2025\\cibertec\\cursos 4to ciclo\\programacion orientada a objetos 2\\clases\\ef\\dsw1_t1_perez_rodriguez_anthony_jordan\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|e:\\cosas de tony 2025\\cibertec\\cursos 4to ciclo\\programacion orientada a objetos 2\\clases\\ef\\dsw1_t1_perez_rodriguez_anthony_jordan\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|e:\\cosas de tony 2025\\cibertec\\cursos 4to ciclo\\programacion orientada a objetos 2\\clases\\ef\\dsw1_t1_perez_rodriguez_anthony_jordan\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|e:\\cosas de tony 2025\\cibertec\\cursos 4to ciclo\\programacion orientada a objetos 2\\clases\\ef\\dsw1_t1_perez_rodriguez_anthony_jordan\\models\\nivelacademico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|solutionrelative:models\\nivelacademico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|e:\\cosas de tony 2025\\cibertec\\cursos 4to ciclo\\programacion orientada a objetos 2\\clases\\ef\\dsw1_t1_perez_rodriguez_anthony_jordan\\models\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|solutionrelative:models\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|e:\\cosas de tony 2025\\cibertec\\cursos 4to ciclo\\programacion orientada a objetos 2\\clases\\ef\\dsw1_t1_perez_rodriguez_anthony_jordan\\dtos\\cursodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|solutionrelative:dtos\\cursodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|e:\\cosas de tony 2025\\cibertec\\cursos 4to ciclo\\programacion orientada a objetos 2\\clases\\ef\\dsw1_t1_perez_rodriguez_anthony_jordan\\dtos\\cursocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|solutionrelative:dtos\\cursocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|e:\\cosas de tony 2025\\cibertec\\cursos 4to ciclo\\programacion orientada a objetos 2\\clases\\ef\\dsw1_t1_perez_rodriguez_anthony_jordan\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|e:\\cosas de tony 2025\\cibertec\\cursos 4to ciclo\\programacion orientada a objetos 2\\clases\\ef\\dsw1_t1_perez_rodriguez_anthony_jordan\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|e:\\cosas de tony 2025\\cibertec\\cursos 4to ciclo\\programacion orientada a objetos 2\\clases\\ef\\dsw1_t1_perez_rodriguez_anthony_jordan\\dsw1_t1_perez_rodriguez_anthony_jordan.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A1EB5997-B9A3-4298-B688-6CE0883A297D}|DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj|solutionrelative:dsw1_t1_perez_rodriguez_anthony_jordan.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T04:32:36.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T04:31:58.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T01:27:10.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CursosController.cs",
+              "DocumentMoniker": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\Controllers\\CursosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CursosController.cs",
+              "ToolTip": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\Controllers\\CursosController.cs*",
+              "RelativeToolTip": "Controllers\\CursosController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T02:08:16.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T04:31:57.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20251126020449_InitialCreate.cs",
+              "DocumentMoniker": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\Migrations\\20251126020449_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251126020449_InitialCreate.cs",
+              "ToolTip": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\Migrations\\20251126020449_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20251126020449_InitialCreate.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T02:04:49.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T04:31:56.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CursoDTO.cs",
+              "DocumentMoniker": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\DTOs\\CursoDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\CursoDTO.cs",
+              "ToolTip": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\DTOs\\CursoDTO.cs",
+              "RelativeToolTip": "DTOs\\CursoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T02:26:08.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CursoCreateDto.cs",
+              "DocumentMoniker": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\DTOs\\CursoCreateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CursoCreateDto.cs",
+              "ToolTip": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\DTOs\\CursoCreateDto.cs",
+              "RelativeToolTip": "DTOs\\CursoCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T03:15:33.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAAAI4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T02:08:58.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T02:43:51.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NivelAcademico.cs",
+              "DocumentMoniker": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\Models\\NivelAcademico.cs",
+              "RelativeDocumentMoniker": "Models\\NivelAcademico.cs",
+              "ToolTip": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\Models\\NivelAcademico.cs*",
+              "RelativeToolTip": "Models\\NivelAcademico.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T01:20:02.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\Data\\ApplicationDbContext.cs*",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T01:28:10.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T03:10:23.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Curso.cs",
+              "DocumentMoniker": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\Models\\Curso.cs",
+              "RelativeDocumentMoniker": "Models\\Curso.cs",
+              "ToolTip": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\Models\\Curso.cs*",
+              "RelativeToolTip": "Models\\Curso.cs*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T01:21:03.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN",
+              "DocumentMoniker": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj",
+              "RelativeDocumentMoniker": "DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj",
+              "ToolTip": "E:\\COSAS DE TONY 2025\\CIBERTEC\\CURSOS 4TO CICLO\\PROGRAMACION ORIENTADA A OBJETOS 2\\CLASES\\EF\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN\\DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj",
+              "RelativeToolTip": "DSW1_T1_PEREZ_RODRIGUEZ_ANTHONY_JORDAN.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-26T02:25:45.636Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
